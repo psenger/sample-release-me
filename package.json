@@ -10,5 +10,8 @@
     "type": "git",
     "url": "https://github.com/psenger/sample-release-me.git"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "release-please": "^16.17.0"
+  }
 }
