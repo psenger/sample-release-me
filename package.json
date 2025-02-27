@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "private": true,
   "devDependencies": {
-    "release-please": "^16.17.0"
+    "release-please": "^16.17.0",
+    "standard-version": "^9.5.0"
   }
 }
